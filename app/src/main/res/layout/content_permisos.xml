@@ -1,9 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20sp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_margin="15sp"
+            android:text="Requisitos de solicitud"/>
+
+    <LinearLayout
+    android:id="@+id/ll_permisos_basicos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permisos básicos"
+        android:contentDescription="La Aplicacion requiere acceso al almacenamiento, a la configuracion del telefono, a los registros de llamadas y los contactos.">
+
+    </Switch>
+    <TextView
+        android:id="@+id/tv_permisos_basicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="La Aplicacion requiere acceso al almacenamiento, a la configuracion del telefono, a los registros de llamadas y los contactos."></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_servicios_accesibilidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicio de Accesibilidad"
+            android:contentDescription="La Aplicacion requiere acceso al almacenamiento, a la configuracion del telefono, a los registros de llamadas y los contactos.">
+
+        </Switch>
+        <TextView
+            android:id="@+id/tv_servicios_accesibilidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Se requiese un servicio de accesibilidad para proporcionar funciones de vigilancia ampliadas."></TextView>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_acceso_uso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/sw_acceso_uso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acceso al uso"/>
+
+            <TextView
+                android:id="@+id/tv_acceso_uso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Este permiso permite rastrear la actividad de otras aplicaciones."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_permiso_superposicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/sw_permiso_superposicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Permiso superposicion"/>
+
+            <TextView
+                android:id="@+id/tv_permiso_superposicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La aplicacion deberia poder mostrarse encima de otras aplicaciones."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_desactivar_notificaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/sw_desactivar_notificaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desactivar las notificaciones de la aplicacion"/>
+
+            <TextView
+                android:id="@+id/tv_desactivar_notificaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Las notificaciones de esta aplicacion deben ser desactivadas ya que pueden ser demasiado molestas."></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_desactivar_optimizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/sw_desactivar_optimizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desactivar la optimizacion de la bateria"/>
+
+            <TextView
+                android:id="@+id/tv_desactivar_optimizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deje que la aplicacion funcione siempre en segundo plano (Optimizacion de la bateria DESACTIVADA) para evitar que la aplicacion se detenga debido al ahorro de bateria."></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_listo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ya casi esta! Solo unos pocos pasos mas!"></TextView>
+
+    </LinearLayout>
 
 
     <Button
@@ -14,5 +157,4 @@
         />
 
 
-
-</ScrollView>
+</FrameLayout>
