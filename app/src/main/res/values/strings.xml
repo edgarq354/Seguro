@@ -1,6 +1,191 @@
 <resources>
-    <string name="app_name">Seguro</string>
-    <string name="title_activity_bienvenido">Bienvenido</string>
+    <string name="app_name">GouGo Free</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_movil">Menu_movil</string>
+    <string name="title_activity_registrar_usuario">Registrar_usuario</string>
+
+    <string name="servidor_web">http://64.227.10.80/taxivalle/</string>
+    <string name="servidor">http://64.227.10.80/taxivalle2/</string>
+
+    <string name="title_activity_historial_pedido">Map</string>
+    <string name="title_activity_notificacion_pedido_movil">Pedido de Taxi</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_pedido_usuario">Map</string>
+
+
+    <string name="olvidate"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="quiero"><u>REGISTRATE</u></string>
+    <string name="condiciones"><u>Terminos y Condiciones de uso</u></string>
+    <string name="GPSAlertDialogTitle">Locatización</string>
+    <string name="GPSAlertDialogMessage">El servicio de Localización esta desabilitado</string>
+    <string name="location">Locatización</string>
+    <string name="location_desc">
+El permiso de ubicación es necesario para mostrar su ubicación actual, ¿le gustaría reconsiderar?</string>
+
+    <string name="title_activity_historial">Historial</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_notificacion_pedido_cancelado">Notificación
+    </string>
+    <string name="title_activity_prueba">Prueba</string>
+    <string name="title_activity_carreras_casuales">Carreras casuales</string>
+    <string name="title_activity_vehiculo_edit">Editar datos del Vehículo</string>
+    <string name="title_activity_conductor_edit">Editar datos del Conductor</string>
+    <string name="title_activity_perfil__conductor">Perfil</string>
+    <string name="title_activity_empresa_radio_taxi">Central de Radio</string>
+    <string name="title_activity_conductor_panico">Conductor en panico</string>
+    <string name="title_activity_tarifa_carrera">Tarifa</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_historial_reserva">Historial de reserva</string>
+    <string name="title_activity_notificacion_pedido_m"> </string>
+    <string name="title_activity_aceptar_reserva">Aceptar reserva</string>
+    <string name="title_activity_datos_vehiculo">Datos del vehiculo</string>
+
+    <string name="taxi_normal">TAXI NORMAL</string>
+    <string name="taxi_delivery">DELIVERY</string>
+    <string name="taxi_lujo">TAXI VIP</string>
+    <string name="taxi_con_aire">TAXI CON AIRE</string>
+    <string name="taxi_con_maletero">TAXI VAGONETA</string>
+    <string name="taxi_con_parrilla">CON PARRILLA</string>
+    <string name="taxi_camioneta">CAMIONETA</string>
+    <string name="moto">MOTO TAXI-ENCARGO</string>
+
+
+    <string name="whatsapp">+59175602869</string>
+    <string name="telefono">75602869</string>
+    <string name="version_sql">8</string>
+    <string name="sonido">sonido</string>
+    <string name="nombre_sql">gougo_free</string>
+    <string name="nombre_carpeta">GouGo Free</string>
+    <string name="correo">edgarq354@gmail.com</string>
+    <string name="direccion">Ciudad de Montero, Barrio Municipal calle # 12.</string>
+    <string name="title_activity_llamar_usuario">Comunicate con el pasajero</string>
+
+    <string name="google_key_api">AIzaSyB1h4N5nfpkF1Hg30P88c_1MvH9qG9Tcvs</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_notificacion_delivery">Notificacion_delivery</string>
+    <string name="title_activity_detalle_pedido_delivery">DETALLE</string>
+    <string name="title_activity_detalle_delivery_historial">Detalle_delivery_historial</string>
+    <string name="title_activity_empresa_delivery">Empresa_delivery</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7323791471693849/9189222361</string>
+    <string name="bonificado_ad_unit_id">ca-app-pub-7323791471693849/7066410532</string>
+    <string name="intercical_ad_unit_id">ca-app-pub-1671467746674539/6141328796</string>
+    <string name="id_AdMob_aplicacion">ca-app-pub-7323791471693849~9954126234</string>
+
+
+    <string name="title_activity_verificar_numero">Registrate</string>
+    <string name="title_activity_datos_conductor">Datos del Conductor</string>
+    <string name="title_activity_datos_vehiculo_pre">Datos del Vehiculo</string>
+    <string name="title_activity_imagenes_preregistro">Registrate</string>
+    <string name="title_activity_imagen_preregistro_vehiculo">Imagenes del Vehículo</string>
+    <string name="title_activity_menu_fotos_preregistro">PRE REGISTRO</string>
+    <string name="title_activity_foto_vehiculo">Foto de vehículo</string>
+    <string name="title_activity_foto_rua">Foto de RUAT</string>
+    <string name="title_activity_foto_inspeccion_tecnica">Foto de IT</string>
+    <string name="title_activity_foto_conductor">Foto de conductor</string>
+    <string name="title_activity_foto_licencia">Foto de licencia</string>
+    <string name="title_activity_foto_carnet">Foto de carnet</string>
+    <string name="title_activity_foto_soat">Foto de SOAT</string>
+    <string name="title_activity_menu_datos_conductor">CONDUCTOR</string>
+    <string name="title_activity_menu_datos_vehiculo">VEHICULO</string>
+
+    <string name="title_activity_menu__canal">CANAL - TAXI VALLE</string>
+
+    <string name="title_activity_lista_audio_canal">CANAL</string>
+    <string-array name="lista_departamento">
+        <item>SANTA CRUZ</item>
+        <item>COCHABAMBA</item>
+        <item>LA PAZ</item>
+        <item>TARIJA</item>
+        <item>BENI</item>
+        <item>ORURO</item>
+        <item>POTOSI</item>
+        <item>CHUQUISACA</item>
+        <item>PANDO</item>
+    </string-array>
+
+    <string-array name="lista_hora">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+
+    <string-array name="lista_categoria">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>P</item>
+        <item>M</item>
+
+    </string-array>
+    <string name="title_activity_menu_publicidad">Generar Creditos</string>
+    <string name="title_activity_anuncio_bonificado">Anuncio_bonificado</string>
+
+    <string name="share_configuracion">configuracion</string>
+    <string name="hora_inicio">hora_inicio</string>
+    <string name="hora_fin">hora_fin</string>
+    <string name="direccion_sonido_pedido">direccion_sonido_pedido</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+
+
+    <string name="button.finish">FINISH</string>
+    <string name="button.next">NEXT</string>
+    <string name="button.skip">SKIP</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Usuario</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Iniciar</string>
+    <string name="sign_up">GouGo Free</string>
+    <string name="or">OR</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_solicitudes">Solicitudes</string>
+
+    <string name="text_name_notification">Servicio de Taxi</string>
+    <string name="title_activity_menu_pedido">Menu_pedido</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -9,6 +194,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_delivery_multipedido">Delivery_multipedido</string>
+    <string name="title_activity_menu_multipedido">Menu_multipedido</string>
+    <string name="v_satelital">V Satelital</string>
+    <string name="title_activity_detalle_pedido_multipedido">Detalle_pedido_multipedido</string>
     <string name="title_activity_permisos">Permisos</string>
-    <string name="title_activity_login">Login</string>
+    <string name="title_activity_bienvenido">Bienvenido</string>
+
+
 </resources>

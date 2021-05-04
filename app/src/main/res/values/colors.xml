@@ -1,10 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent_presion">#0F0F0F</color>
+    <color name="colorPrimary">#272727</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary_light">#4D9AE4</color>
+    <color name="colorAccent">#2165a6</color>
+    <color name="colorPrimary_text">#0F0F0F</color>
+    <color name="colorSecondary_text">#757575</color>
+    <color name="colorIcons">#000000</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorTransparente_1">#962f392f</color>
+    <color name="colorTransparente_2">#d5000000</color>
+    <color name="colorTransparente_5">#03000000</color>
+    <color name="colorTextoBoton">#fff</color>
+    <color name="coloraactivo">#2e7d32</color>
+    <color name="colorazul">#3577b5</color>
+    <color name="colorCorporativo">#e7a54f</color>
+    <color name="colorPedido">#DB3F2B</color>
+    <color name="colorLujo">#e9ab4d</color>
+    <color name="colorMaletero">#be9664</color>
+    <color name="colorAire">#65e2ed</color>
+    <color name="color_secundario">#FF5722</color>
+    <color name="color_TRANSPARENTE">#00000000</color>
+    <color name="colorLibre">#2165a6</color>
+    <color name="colorOcupado">#FC1212</color>
+    <color name="colorCirculo_negativo">#000000</color>
+    <color name="colorChat">#C386C1F7</color>
+    <color name="colorChatOscuro">#5fa6e9</color>
+
+
+
+
+    <color name="colorSinAceptar">#FFC107</color>
+    <color name="colorCompletado">#FFFFFF</color>
+
+
+
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="black_transparent">#14000000</color>
+    <color name="black_transparent_image">#46000000</color>
+    <color name="active_indicator">@android:color/white</color>
+    <color name="inactive_indicator">#4D000000</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="bg">#757575</color>
+
+
+
+
+    <color name="solid_one">#4abc96</color>
+    <color name="solid_two">#357180</color>
+    <color name="solid_three">#ffce00</color>
+
+
+
+
+    <color name="secondPage">#4D9AE4</color>
+    <color name="text">#ffffff</color>
+    <color name="text_two">#94ffffff</color>
+    <color name="green">#940ce61f</color>
+
+
+
+    <color name="colorGrayLight">#fafafa</color>
+    <color name="colorStarBlue">#09c6df</color>
+    <color name="colorEndBlue">#0bcce6</color>
+
+    <color name="colorBarraSuperior">#2984E6</color>
+
+    <color name="typing">#12887D</color>
+    <color name="typing2">#2165a6</color>
+
+
+
 </resources>
+
