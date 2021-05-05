@@ -47,7 +47,9 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 
 
     <application
@@ -149,6 +151,40 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
         <uses-library android:name="com.google.android.maps" />
+
+
+        <service
+            android:name=".uso_datos.Servicio_recargar_actualizado"
+            android:exported="false" />
+
+
+        <service
+            android:name=".uso_datos.USSDService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/conf_service" />
+        </service>
+        <service
+            android:name=".uso_datos.XXXX"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/conf_service" />
+        </service>
+
+        <service
+            android:name=".burbuja_pedido.Burbuja_principal_pedido"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,0 +1,63 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/chat_head_profile_iv"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_auto"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_camara"
+                tools:ignore="ContentDescription"/>
+        </FrameLayout>
+        <ImageView
+            android:id="@+id/im_punto_pasajero"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/ic_camara_icono" />
+
+        <ImageView
+            android:id="@+id/im_punto_empresa"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/ic_camara" />
+        <ImageView
+            android:id="@+id/im_lo_tengo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/ic_point1"
+            />
+
+        <ImageView
+            android:id="@+id/im_finalizar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/ic_point2"
+            />
+    </LinearLayout>
+
+
+
+</FrameLayout>

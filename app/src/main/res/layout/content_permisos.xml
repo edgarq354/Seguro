@@ -52,6 +52,7 @@
         android:orientation="vertical">
 
         <Switch
+            android:id="@+id/sw_servicios_accesibilidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Servicio de Accesibilidad"

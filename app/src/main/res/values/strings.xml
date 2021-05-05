@@ -201,5 +201,7 @@ El permiso de ubicación es necesario para mostrar su ubicación actual, ¿le gu
     <string name="title_activity_permisos">Permisos</string>
     <string name="title_activity_bienvenido">Bienvenido</string>
 
+    <string name="accessibility_description">USSD</string>
+    <string name="desc">ussd</string>
 
 </resources>
