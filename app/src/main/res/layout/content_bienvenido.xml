@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="@layout/activity_bienvenido"
+    android:padding="25sp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <TextView
@@ -17,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="bottom"
+        android:layout_gravity="center"
         >
 
 
@@ -30,7 +31,7 @@
         <Button
             android:id="@+id/bt_siguiente"
             android:layout_width="wrap_content"
-            android:layout_height="34dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="SIGUIENTE"></Button>
     </LinearLayout>

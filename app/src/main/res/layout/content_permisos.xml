@@ -29,6 +29,7 @@
     android:orientation="vertical">
 
     <Switch
+        android:id="@+id/sw_permisos_basicos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Permisos básicos"
@@ -152,6 +153,7 @@
 
 
     <Button
+        android:id="@+id/bt_siguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGUIENTE"
